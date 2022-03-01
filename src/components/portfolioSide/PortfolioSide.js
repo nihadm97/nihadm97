@@ -1,7 +1,5 @@
 import React, { Suspense } from 'react';
 import Title from '../title/Title';
-import CardList from '../cardList/CardList';
-import SkeletonLoader from './../skeletonLoader/SkeletonLoader';
 import { portfolios } from './../../@fake-db/db/portfolios-db';
 import withCustomScroll from './../../hoc/withCustomScroll';
 import './PortfolioSide.scss';
@@ -24,7 +22,7 @@ class PortfolioSide extends React.Component{
                 <h4>DrawingAPP</h4>
                 <a target="_blank" href='https://github.com/nihadm97/DrawingAPP-ReactJS.git'>Download</a><br></br><br></br>
                 <h4>Ćilim game</h4>
-                <a target="_blank" href='https://github.com/nihadm97/--cilim-game-javascript.git'>Download</a>
+                <a target="_blank" href='https://nihadm97.github.io/--cilim-game-javascript/'>Open</a>
             </>
         );
     }
