@@ -20,7 +20,7 @@ class InfoList extends React.Component{
             },
             {
                 infoTitle: 'Languages',
-                infoValue: 'Bosnian, English, Germany',
+                infoValue: 'Bosnian, English, German',
             },
             {
                 infoTitle: 'Nationality',

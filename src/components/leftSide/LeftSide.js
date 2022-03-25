@@ -1,7 +1,7 @@
 import React from 'react';
 import Avatar from '../avatar/Avatar';
 import './LeftSide.scss';
-import CV from "./Nihad_Mehmedovic_CV.doc"
+import CV from "./Nihad_Mehmedovic_CV.pdf"
 
 
 const LeftSide = () => (
